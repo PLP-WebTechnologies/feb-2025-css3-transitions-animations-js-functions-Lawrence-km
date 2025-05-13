@@ -1,0 +1,46 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Advanced Animations & Storage</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <header>
+        <h1>Animation Playground</h1>
+    </header>
+
+    <main>
+        <!-- Theme Selector -->
+        <section class="control-panel">
+            <h2>Theme Preferences</h2>
+            <div class="theme-options">
+                <button id="light-theme" class="theme-btn">Light Mode</button>
+                <button id="dark-theme" class="theme-btn">Dark Mode</button>
+                <button id="rainbow-theme" class="theme-btn">Rainbow Mode</button>
+            </div>
+        </section>
+
+        <!-- Animation Trigger -->
+        <section class="animation-section">
+            <h2>Interactive Animation</h2>
+            <div id="animated-box" class="box">
+                Click me!
+            </div>
+            <button id="reset-btn" class="action-btn">Reset Animation</button>
+        </section>
+
+        <!-- User Data -->
+        <section class="data-section">
+            <h2>Save Your Data</h2>
+            <input type="text" id="user-input" placeholder="Enter something to save">
+            <button id="save-btn" class="action-btn">Save to Storage</button>
+            <button id="clear-btn" class="action-btn">Clear Storage</button>
+            <div id="saved-data"></div>
+        </section>
+    </main>
+
+    <script src="script.js"></script>
+</body>
+</html>
